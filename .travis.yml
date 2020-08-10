@@ -23,4 +23,4 @@ matrix:
 #    - os: osx
 #      osx_image: xcode9.3
 
-script: mvn clean install -q -Pcontrib-check
+script: nohup mvn clean install -q -Pcontrib-check
